@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LsdevFooterCredit from "@/components/LsdevFooterCredit";
 
 export default function Footer() {
   return (
@@ -19,6 +20,9 @@ export default function Footer() {
             <Link href="/infos-pratiques" className="para-md text-muted hover:text-ink">Infos pratiques</Link>
           </div>
         </div>
+      </div>
+      <div className="container-page pb-8">
+        <LsdevFooterCredit />
       </div>
     </footer>
   );
